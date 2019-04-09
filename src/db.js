@@ -90,10 +90,10 @@ export const db = {
         {
             "id": "2",
             "img":  require("./Photos/icon.png"),
-            "title": "Wedding",
+            "title": "To-do-list",
             "description": "lorem ipsum lorem ipsumlorem ipsumlorem ipsumlorem ipsumlorem ipsumlorem ipsumlorem ipsumlorem ipsum",
-            "github": "https://twitter.com/IrynavovkS",
-            "demo": "https://twitter.com/IrynavovkS"
+            "github": "https://github.com/irynahotsiy/to-do-list",
+            "demo": "https://toddddo-list.netlify.com"
         },
         {
             "id": "3",
