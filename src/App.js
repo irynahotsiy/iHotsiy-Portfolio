@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import Navbar from './components/navbar/Navbar';
+import Navbar from './components/Navbar/Navbar';
 import Jumbotron from './components/Jumbotron/Jumbotron';
 import Skills from './components/Skills/Skills';
 import Courses from './components/Courses/Courses';
