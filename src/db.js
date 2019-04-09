@@ -82,10 +82,10 @@ export const db = {
     "projects": [{
             "id": "1",
             "img":  require("./Photos/icon.png"),
-            "title": "Wedding-site",
+            "title": "Site-invitation",
             "description": "lorem ipsum lorem ipsumlorem ipsumlorem ipsumlorem ipsumlorem ipsumlorem ipsumlorem ipsumlorem ipsum",
-            "github": "https://github.com/irynahotsiy/wedding-site",
-            "demo": "https://irynahotsiy.github.io/wedding-site"
+            "github": "https://github.com/irynahotsiy/site-invitation",
+            "demo": "https://irynahotsiy.github.io/site-invitation"
         },
         {
             "id": "2",
