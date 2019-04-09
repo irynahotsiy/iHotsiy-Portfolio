@@ -20,10 +20,10 @@ class Portfolio extends Component {
                   <p>{el.description}</p>
                   <div>
                     <button className="gradiented-btn">
-                      <a href={el.github}>GitHub</a>
+                      <a href={el.github} target="_blank" rel="noopener noreferrer">GitHub</a>
                     </button>
                     <button className="gradiented-btn">
-                      <a href={el.demo}>Demo</a>
+                      <a href={el.demo} target="_blank" rel="noopener noreferrer">Demo</a>
                     </button>
                   </div>
                 </div>
