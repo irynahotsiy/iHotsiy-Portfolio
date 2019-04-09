@@ -85,7 +85,7 @@ export const db = {
             "title": "Wedding-site",
             "description": "lorem ipsum lorem ipsumlorem ipsumlorem ipsumlorem ipsumlorem ipsumlorem ipsumlorem ipsumlorem ipsum",
             "github": "https://github.com/irynahotsiy/wedding-site",
-            "demo": "https://irynahotsiy.github.io/wedding-site/cd"
+            "demo": "https://irynahotsiy.github.io/wedding-site"
         },
         {
             "id": "2",
