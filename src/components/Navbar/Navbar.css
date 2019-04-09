@@ -1,0 +1,102 @@
+.navbar{
+    background: #1d1e25;
+    width: 100%;
+    position: fixed;
+    top:0;
+    line-height: 3.5em;
+    font-size: 1.1em;
+    display: flex;
+    justify-content: center;
+    font-weight: 400;
+}
+.nav-container{
+    width: 1050px;
+    display: flex;
+    align-items: center;
+}
+.navbar-brand{
+    width:100%;
+    padding: 0 40px;
+    margin: 0;
+    display: flex;
+    color:white;
+    text-decoration: none;
+}
+.navbar-brand span{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 0 5px;
+}
+.profile-image{
+    height: 40px;
+    border-radius: 1.5rem;
+}
+.navbar-nav{
+    margin: 0;
+    padding: 0 30px;
+    width: 100%;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    list-style: none;
+    flex-direction: row; 
+}
+.nav-item a {
+    text-decoration: none;
+    cursor: pointer;
+    padding: 20px;
+    color: #aab2bf;
+}
+.nav-item a:hover, .nav-item a:focus{
+    color: #1d1e25;
+}
+.nav-item:hover, .nav-item:focus{
+    background: #aab2bf;
+    transition: all 0.5s;
+}
+.navbar-burger{
+    padding: 0 30px;
+    width: 100%;
+    display: none;
+    color: white;
+}
+.align-right{
+    text-align: right;
+}
+button{
+    cursor: pointer;
+}
+
+
+
+@media only screen and (max-width: 733px) {
+    .navbar-nav{
+        display: none;
+    }
+    .nav {
+        padding: 0;
+        display: flex;
+        flex-direction: column; 
+        position: absolute;
+        top:0;
+        margin-top: 50px;
+        background: #1d1e25;
+        align-items: flex-end;
+        text-align: end;
+    }
+    .navbar-burger{
+        display: flex;
+        justify-content: flex-end;
+    }
+    .nav-item{
+        width: 100%;
+    }
+}
+
+
+
+
+
+
+

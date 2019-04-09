@@ -1,0 +1,44 @@
+.jumbotron{
+    color:#d3d4d6;
+    text-align: center;
+    background: #333740;
+    padding: 120px 0;
+    font-size: 1.1em;
+    letter-spacing: 0.5px;
+}
+.jumbotron h1 {
+    font-size: 2.5em;
+}
+.color-blue{
+    color: #45bafc;
+}
+.color-green{
+    color: #57eea1;
+}
+
+.accented-words{
+    font-weight: bold;
+}
+.btn-default{
+    margin-top: 20px;
+    padding: 15px 20px;
+    background: rgba(59, 62, 70, 1);
+    border: 1px solid #aab2bf;
+    border-radius: 0.3em;
+    font-size: 1em;
+    font-weight: bold;
+}
+.btn-default a{
+    padding: 15px 20px;
+    color:  #d3d4d6;
+    text-decoration: none;
+}
+.btn-default:hover{
+    color: white;
+    background: rgba(66, 70, 80, 1);
+}
+@media only screen and (max-width: 450px) {
+    .jumbotron h1{
+        font-size: 2rem;
+    }
+}

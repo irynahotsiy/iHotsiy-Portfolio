@@ -1,0 +1,52 @@
+.white-body{
+    background: white;
+    padding: 60px 0;
+    text-align: center;
+    color: #2d2d2d;
+}
+.white-body header{
+    font-size: 2rem;
+    font-weight: 700;
+}
+.boxes-row{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    padding: 0 20px;
+}
+.logotype{
+    margin: 0;
+    padding-top: 15px;
+    width: 100%;
+    max-width: 320px;
+    line-height: 0em;
+    text-align: center;
+}
+.information{
+    width: 100%;
+    max-width: 680px;
+    text-align: start;
+    line-height: 2em;
+}
+.information h3{
+    text-transform: capitalize;
+}
+hr{
+    border: 0;
+    height: 0;
+    border-top: 1px solid rgba(0, 0, 0, 0.1);
+    border-bottom: 1px solid rgba(255, 255, 255, 0.3);
+}
+.logotype img{
+    width: 50%;
+ 
+}
+
+
+
+@media only screen and (max-width: 1050px) {
+    .boxes-row{
+        justify-content: center;
+    }
+}

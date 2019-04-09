@@ -1,0 +1,22 @@
+
+.end{
+    background: #292C33;
+    margin:0;
+    padding: 50px 0;
+    text-align: center;
+}
+.end h1{
+    font-weight: 400;
+}
+.end p{
+    color: #909db7;
+    font-size: 1.1em;
+}
+.end i {
+    color: white;
+    font-size: 30px;
+    padding: 10px;
+}
+.end i:hover{
+    color: #45bafc;
+}
