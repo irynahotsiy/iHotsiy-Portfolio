@@ -98,10 +98,11 @@ export const db = {
         {
             "id": "3",
             "img": require("./Photos/icon.png"),
-            "title": "Wedding",
+            "title": "Color-game",
             "description": "lorem ipsum lorem ipsumlorem ipsumlorem ipsumlorem ipsumlorem  ipsumlorem ipsumlorem ipsumlorem ipsum",
-            "github": "https://twitter.com/IrynavovkS",
-            "demo": "https://twitter.com/IrynavovkS"
+            "github": "https://github.com/irynahotsiy/color-Game",
+            "demo": "https://colorr-game.netlify.com",
+
         }
     ],
     "social": [{
