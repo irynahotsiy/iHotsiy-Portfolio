@@ -81,8 +81,7 @@ export const db = {
     ],
     "projects": [{
             "id": "1",
-            //"img":  require("./Photos/icon.png"),
-            "img": require("https://cdn3.iconfinder.com/data/icons/objects/512/Invitation_2-512.png"),
+            "img":  require("./Photos/invitation.png"),
             "title": "Site-invitation",
             "description": "lorem ipsum lorem ipsumlorem ipsumlorem ipsumlorem ipsumlorem ipsumlorem ipsumlorem ipsumlorem ipsum",
             "github": "https://github.com/irynahotsiy/site-invitation",
@@ -90,7 +89,7 @@ export const db = {
         },
         {
             "id": "2",
-            "img":  require("./Photos/icon.png"),
+            "img":  require("./Photos/todo.png"),
             "title": "To-do-list",
             "description": "lorem ipsum lorem ipsumlorem ipsumlorem ipsumlorem ipsumlorem ipsumlorem ipsumlorem ipsumlorem ipsum",
             "github": "https://github.com/irynahotsiy/to-do-list",
@@ -98,7 +97,7 @@ export const db = {
         },
         {
             "id": "3",
-            "img": require("./Photos/icon.png"),
+            "img": require("./Photos/color.png"),
             "title": "Color-game",
             "description": "lorem ipsum lorem ipsumlorem ipsumlorem ipsumlorem ipsumlorem  ipsumlorem ipsumlorem ipsumlorem ipsum",
             "github": "https://github.com/irynahotsiy/color-Game",
@@ -107,7 +106,7 @@ export const db = {
         },
         {
             "id": "4",
-            "img": require("./Photos/icon.png"),
+            "img": require("./Photos/color-game.png"),
             "title": "Color-game-react",
             "description": "lorem ipsum lorem ipsumlorem ipsumlorem ipsumlorem ipsumlorem  ipsumlorem ipsumlorem ipsumlorem ipsum",
             "github": "https://github.com/irynahotsiy/color-game-react",
