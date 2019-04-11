@@ -82,7 +82,7 @@ export const db = {
     "projects": [{
             "id": "1",
             //"img":  require("./Photos/icon.png"),
-            "img": require("https://cdn3.iconfinder.com/data/icons/objects/512/Invitation_2-512.png")
+            "img": require("https://cdn3.iconfinder.com/data/icons/objects/512/Invitation_2-512.png"),
             "title": "Site-invitation",
             "description": "lorem ipsum lorem ipsumlorem ipsumlorem ipsumlorem ipsumlorem ipsumlorem ipsumlorem ipsumlorem ipsum",
             "github": "https://github.com/irynahotsiy/site-invitation",
