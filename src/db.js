@@ -101,9 +101,9 @@ export const db = {
             "title": "Color-game",
             "description": "lorem ipsum lorem ipsumlorem ipsumlorem ipsumlorem ipsumlorem  ipsumlorem ipsumlorem ipsumlorem ipsum",
             "github": "https://github.com/irynahotsiy/color-Game",
-            "demo": "https://colorr-game.netlify.com",
+            "demo": "https://colorr-game.netlify.com"
 
-        }
+        },
         {
             "id": "4",
             "img": require("./Photos/icon.png"),
