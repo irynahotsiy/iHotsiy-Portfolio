@@ -10,7 +10,7 @@ class Courses extends Component {
         return (
             <section className="white-body" id="courses">
                 <header>Courses</header>
-                <blockquote>Some of the courses I've been learning.</blockquote>
+                <blockquote>Some of the courses help me to develop my front-end skills.</blockquote>
                     {this.props.courses.map(el =>
                         <div key={el.id} className="container">
                             <div className="boxes-row">

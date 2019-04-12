@@ -59,24 +59,24 @@ export const db = {
             "img": require("./Photos/freecodecamp.jpeg"),
             "period": "Feb 2018 - Present",
             "title": "freeCodeCamp",
-            "listTitle": "Contracted technical writer at DigitalOcean with a focus on JavaScript, DOM manipulation, and Node.js.",
-            "li": ["Writes guides, articles, and tutorials on the JavaScript programming language, including fundamentals, concepts, syntax, and DOM manipulation", "Helped shape the curriculum of JavaScript content by collaborating with the in-house team"]
+            "listTitle": "As a begginer I've started to leart code with FreeCodeCamp. This course helps me to acquaint with: ",
+            "li": ["Responsive Web Design", "Javascript Algorithms And Data Structures", "Front End Libraries"]
         },
         {
             "id": "2",
             "img": require("./Photos/udemy.png"),
             "period": "January 2018",
             "title": "The web developer bootcamp",
-            "listTitle": "Full stack web developer working with HTML, CSS/SCSS, JavaScript/jQuery, PHP, MySQL, and WordPress on AWS. Responsibilities include designing and developing websites, Linux system administration, back end maintenance, and communication.",
-            "li": ["Used the latest HTML5/CSS3 and JavaScript standards to develop custom, responsive websites", "Designed complete website mockups in Adobe Illustrator/Photoshop and utilized a Sass and Gulp workflow to accurately and efficiently develop the front end", "Successfully migrated 60+ websites to the Amazon Web Services cloud ecosystem, set up and installed all server software for development", "Implemented the WCAG 2.0 accessibility standards for ADA compliance"],
+            "listTitle": "Using materials of this course I've learnt how to use HTML, CSS, JS, jQuery and Bootstrap libraries in real projects. The most usefull for me was creating color-game and to-do-list projets. Also I've learnt more about:",
+            "li": ["Flexbox and greed system", "Object and arrays", "JS methods"],
         },
         {
             "id": "3",
             "img": require("./Photos/WordPress.png"),
             "period": "January 2019",
             "title": "Create a Blog with WordPress",
-            "listTitle": "Full stack web developer working with HTML, CSS/SCSS, JavaScript/jQuery, PHP, MySQL, and WordPress on AWS. Responsibilities include designing and developing websites, Linux system administration, back end maintenance, and communication.",
-            "li": ["Used the latest HTML5/CSS3 and JavaScript standards to develop custom, responsive websites", "Designed complete website mockups in Adobe Illustrator/Photoshop and utilized a Sass and Gulp workflow to accurately and efficiently develop the front end", "Successfully migrated 60+ websites to the Amazon Web Services cloud ecosystem, set up and installed all server software for development", "Implemented the WCAG 2.0 accessibility standards for ADA compliance"],
+            "listTitle": "I'got this courses to understand how Wordpress works and what it is in general. I've learnt about: ",
+            "li": ["Setting site (writing, reading, comments)", "How to delete unnecessary content (rather in footer)", "Creating new blocks with differnt elements and styling it", "Using widgest and plugins"],
         }
     ],
     "projects": [{

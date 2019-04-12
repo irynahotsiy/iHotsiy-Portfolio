@@ -17,7 +17,7 @@
 }
 .logotype{
     margin: 0;
-    padding-top: 15px;
+    padding-top: 7px;
     width: 100%;
     max-width: 320px;
     line-height: 0em;
@@ -31,7 +31,13 @@
 }
 .information h3{
     text-transform: capitalize;
+    margin: 0;
 }
+.information p, ul{
+    margin: 5px;
+    line-height: 2;
+}
+
 hr{
     border: 0;
     height: 0;
@@ -39,7 +45,7 @@ hr{
     border-bottom: 1px solid rgba(255, 255, 255, 0.3);
 }
 .logotype img{
-    width: 50%;
+    width: 40%;
  
 }
 

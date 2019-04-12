@@ -7,8 +7,7 @@ class Skills extends Component {
         return ( 
             <section className="blue-body" id="skills">
                 <header>Technical Skills</header>
-                <blockquote>I specialize in front-end development, with knowledge in <br/>
-                system administration.</blockquote>
+                <blockquote>Good understanding of web-related technologies...</blockquote>
                 <div className="container">
                     <div className="row">
                         { this.props.skills.map(li => <figure key={li.id} className="box">

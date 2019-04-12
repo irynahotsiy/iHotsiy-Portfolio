@@ -7,7 +7,7 @@ class Portfolio extends Component {
     return (
       <section className="blue-body" id="portfolio">
         <header>Portfolio</header>
-        <blockquote>Here are a few examples of my work.</blockquote>
+        <blockquote>Here are a few examples of my projects.</blockquote>
         <div className="container">
           <div className="row">
             {this.props.projects.map(el => (
