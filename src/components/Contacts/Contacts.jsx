@@ -15,8 +15,8 @@ class Contacts extends Component {
               </span>
             </h1>
             <p>
-              Web developer, designer, tech writer and problem solver. I love
-              <br />
+              Web developer, designer, tech writer and problem solver.<br /> I love
+              
               hiking, recording music, and building communities.
             </p>
             <div>
