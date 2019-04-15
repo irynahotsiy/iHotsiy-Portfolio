@@ -27,8 +27,8 @@ class Navbar extends Component {
               <img src={image} className="profile-image" alt="Profile" />
             </span>
             <span>
-              Iryna <br />
-              <strong> Hotsiy</strong>
+              Iryna 
+              <span><strong>Hotsiy</strong></span>
             </span>
           </a>
           <div className="navbar-burger align-right">

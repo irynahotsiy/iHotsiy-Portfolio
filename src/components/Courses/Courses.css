@@ -17,7 +17,7 @@
 }
 .logotype{
     margin: 0;
-    padding-top: 7px;
+    padding: 10px 0;
     width: 100%;
     max-width: 320px;
     line-height: 0em;
@@ -31,11 +31,13 @@
 }
 .information h3{
     text-transform: capitalize;
+    font-weight: 500;
     margin: 0;
 }
 .information p, ul{
     margin: 5px;
     line-height: 2;
+    color:#5d5c5c;
 }
 
 hr{
@@ -54,5 +56,10 @@ hr{
 @media only screen and (max-width: 1050px) {
     .boxes-row{
         justify-content: center;
+    }
+    .information p, ul{
+        line-height: 1.5;
+        font-size: 1rem;
+        text-align: justify;
     }
 }
