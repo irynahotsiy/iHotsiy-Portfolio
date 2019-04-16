@@ -7,7 +7,7 @@ class Footer extends Component {
         return ( 
         <>
             <footer>
-                <p>Made by <strong>Iryna Hotsiy</strong>.</p>
+                <p>Made by <a href="https://github.com/irynahotsiy/portfolio-site/tree/master">Iryna <strong>Hotsiy</strong></a>.</p>
             </footer>
         </>
          );

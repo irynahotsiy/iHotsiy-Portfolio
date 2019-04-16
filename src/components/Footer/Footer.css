@@ -10,3 +10,7 @@ footer{
 footer p{
     margin: 0;
 }
+footer a{
+    text-decoration: none;
+    color: white;
+}

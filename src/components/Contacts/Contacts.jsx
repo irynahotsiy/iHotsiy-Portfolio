@@ -15,9 +15,8 @@ class Contacts extends Component {
               </span>
             </h1>
             <p>
-              Web developer, designer, tech writer and problem solver.<br /> I love
-              
-              hiking, recording music, and building communities.
+            I'm looking forward to your prompt reply.<br/>
+            You can find me on:
             </p>
             <div>
               {this.props.social.map(el => (
@@ -26,6 +25,7 @@ class Contacts extends Component {
                 </a>
               ))}
             </div>
+            <p>or send message on e-mail:<br/> <strong>iryna.hotsiy@gmail.com</strong></p>
             </div>
           </section>
       </>
