@@ -15,9 +15,19 @@ class Portfolio extends Component {
                 <div className="project-icon">
                   <img src={el.img} alt="project"/>
                 </div>
+               
                 <div className="project-background">
+              
                   <article>{el.title}</article>
-                  <p>{el.description}</p>
+                  
+                  <div className="technologies">
+                  {el.content.map(el => (
+                   <span>{el}</span>
+                  ))}
+                </div>
+                  <p>
+                 
+                  {el.description}</p>
                   <div>
                     <button className="gradiented-btn">
                       <a href={el.github} target="_blank" rel="noopener noreferrer">GitHub</a>

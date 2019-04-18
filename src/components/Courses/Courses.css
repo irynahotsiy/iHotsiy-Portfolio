@@ -1,6 +1,6 @@
 .white-body{
     background: white;
-    padding: 60px 0;
+    padding: 80px 0;
     text-align: center;
     color: #2d2d2d;
 }
@@ -27,7 +27,7 @@
     width: 100%;
     max-width: 680px;
     text-align: start;
-    line-height: 2em;
+    line-height: 1.8;
 }
 .information h3{
     text-transform: capitalize;

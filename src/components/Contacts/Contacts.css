@@ -9,6 +9,7 @@
     font-weight: 400;
 }
 .end p{
+    margin: 0;
     padding: 20px;
     line-height: 1.7;
     color: #909db7;

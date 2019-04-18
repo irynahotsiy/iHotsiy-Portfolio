@@ -83,6 +83,7 @@ export const db = {
             "id": "1",
             "img":  require("./Photos/invitation.png"),
             "title": "Site-invitation",
+            "content": ["jQuery", "HTML", "CSS"],
             "description": "This project was created using HTML, CSS and jQuery library. This is a wedding site-invitation, which contains details about date, marrige couple, bridesmaids and groomsmen, time and location of holding a wedding ceremony.",
             "github": "https://github.com/irynahotsiy/site-invitation",
             "demo": "https://irynahotsiy.github.io/site-invitation"
@@ -91,6 +92,7 @@ export const db = {
             "id": "2",
             "img":  require("./Photos/todo.png"),
             "title": "To-do-list",
+            "content": ["React", "HTML", "CSS"],
             "description": "To-do-list was created using create-react-app (or React Framework). Instead of css was used Style Component. Using this ... you can add new todo-items to your to-do-list, you can pin it, check as done or delete from the list.",
             "github": "https://github.com/irynahotsiy/to-do-list",
             "demo": "https://toddddo-list.netlify.com"
@@ -99,6 +101,7 @@ export const db = {
             "id": "3",
             "img": require("./Photos/color.png"),
             "title": "Color-game",
+            "content": ["JS", "HTML", "CSS"],
             "description": "lorem ipsum lorem ipsumlorem ipsumlorem ipsumlorem ipsumlorem  ipsumlorem ipsumlorem ipsumlorem ipsum",
             "github": "https://github.com/irynahotsiy/color-Game",
             "demo": "https://colorr-game.netlify.com"
@@ -108,6 +111,7 @@ export const db = {
             "id": "4",
             "img": require("./Photos/color-game.png"),
             "title": "Color-game-react",
+            "content": ["React", "HTML", "CSS"],
             "description": "lorem ipsum lorem ipsumlorem ipsumlorem ipsumlorem ipsumlorem  ipsumlorem ipsumlorem ipsumlorem ipsum",
             "github": "https://github.com/irynahotsiy/color-game-react",
             "demo": "https://color-game-react.netlify.com"
