@@ -92,7 +92,7 @@ export const db = {
             "id": "2",
             "img":  require("./Photos/todo.png"),
             "title": "To-do-list",
-            "content": ["React", "HTML", "CSS"],
+            "content": ["React", "HTML", "Style Component"],
             "description": "To-do-list was created using create-react-app (or React Framework). Instead of css was used Style Component. Using this ... you can add new todo-items to your to-do-list, you can pin it, check as done or delete from the list.",
             "github": "https://github.com/irynahotsiy/to-do-list",
             "demo": "https://toddddo-list.netlify.com"
@@ -111,7 +111,7 @@ export const db = {
             "id": "4",
             "img": require("./Photos/color-game.png"),
             "title": "Color-game-react",
-            "content": ["React", "HTML", "CSS"],
+            "content": ["React", "HTML", "Style Component"],
             "description": "lorem ipsum lorem ipsumlorem ipsumlorem ipsumlorem ipsumlorem  ipsumlorem ipsumlorem ipsumlorem ipsum",
             "github": "https://github.com/irynahotsiy/color-game-react",
             "demo": "https://color-game-react.netlify.com"
