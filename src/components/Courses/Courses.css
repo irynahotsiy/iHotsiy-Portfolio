@@ -1,21 +1,21 @@
-.white-body{
+.white-body {
     background: white;
     padding: 80px 0;
     text-align: center;
     color: #2d2d2d;
 }
-.white-body header{
+.white-body header {
     font-size: 2rem;
     font-weight: 700;
 }
-.boxes-row{
+.boxes-row {
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
     justify-content: flex-start;
     padding: 0 20px;
 }
-.logotype{
+.logotype {
     margin: 0;
     padding: 10px 0;
     width: 100%;
@@ -23,30 +23,30 @@
     line-height: 0em;
     text-align: center;
 }
-.information{
+.information {
     width: 100%;
     max-width: 680px;
     text-align: start;
     line-height: 1.8;
 }
-.information h3{
+.information h3 {
     text-transform: capitalize;
     font-weight: 500;
     margin: 0;
 }
-.information p, ul{
+.information p, ul {
     margin: 5px;
     line-height: 2;
     color:#5d5c5c;
 }
 
-hr{
+hr {
     border: 0;
     height: 0;
     border-top: 1px solid rgba(0, 0, 0, 0.1);
     border-bottom: 1px solid rgba(255, 255, 255, 0.3);
 }
-.logotype img{
+.logotype img {
     width: 40%;
  
 }
@@ -54,10 +54,10 @@ hr{
 
 
 @media only screen and (max-width: 1050px) {
-    .boxes-row{
+    .boxes-row {
         justify-content: center;
     }
-    .information p, ul{
+    .information p, ul {
         line-height: 1.5;
         font-size: 1rem;
         text-align: justify;

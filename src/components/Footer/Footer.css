@@ -1,5 +1,5 @@
 
-footer{
+footer {
     padding: 0;
     background:#1d1e25;
     color: white;
@@ -7,10 +7,10 @@ footer{
     text-align: center;
     color: #909db7;
 }
-footer p{
+footer p {
     margin: 0;
 }
-footer a{
+footer a {
     text-decoration: none;
     color: white;
 }

@@ -1,4 +1,4 @@
-.gradiented-btn{
+.gradiented-btn {
     padding: 7px 15px; 
     margin-right: 15px;
     margin-top: 10px;
@@ -6,32 +6,32 @@
     border: none;
     font-size: 1rem;
 }
-.gradiented-btn a{
+.gradiented-btn a {
  text-decoration: none;
  color:white;
 }
-.gradiented-btn:hover{
+.gradiented-btn:hover {
     background: linear-gradient(to right, rgba(138,199,131,1), rgb(42, 171, 143));
     transition: all 2.0s ease;
 }
-.box-project{
+.box-project {
     display: flex;
     align-items: center;
     margin-bottom: 60px;
 }
-.project-icon{
+.project-icon {
     display: flex;
     justify-content: center;
     max-width: 240px;
     width: 100%;
 
 }
-.project-icon img{
+.project-icon img {
     height: 130px;
     width: 130px;
     border-radius: 5rem;
 }
-.project-background{
+.project-background {
     width: 100%;
     max-width: 760px;
     box-sizing: border-box;
@@ -40,7 +40,7 @@
     text-align: start;
     padding: 10px;
 }
-.project-background article{
+.project-background article {
     margin: 15px 0;
     font-size: 1.2rem;
     font-weight: 500;
@@ -60,7 +60,7 @@
     box-sizing: border-box;
     margin-right: 4px;
 }
-.project-background p{
+.project-background p {
     padding: 0;
     margin: 15px 0;
     line-height: 1.8;
@@ -73,13 +73,13 @@
     .box-project{
         flex-direction: column;
     }
-    .project-background{
+    .project-background {
         text-align: center;
     }
-    .technologies span{
+    .technologies span {
         margin: 0 15px;
     }
-    .gradiented-btn{
+    .gradiented-btn {
         margin: 0 15px;
     }
 }

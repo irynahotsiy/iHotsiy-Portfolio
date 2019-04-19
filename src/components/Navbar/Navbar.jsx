@@ -2,7 +2,6 @@ import React, { Component } from "react";
 import "./Navbar.css";
 import image from "./portfolio.jpg";
 
-
 class Navbar extends Component {
   constructor(props) {
     super(props);
@@ -27,8 +26,10 @@ class Navbar extends Component {
               <img src={image} className="profile-image" alt="Profile" />
             </span>
             <span>
-              Iryna 
-              <span><strong>Hotsiy</strong></span>
+              Iryna
+              <span>
+                <strong>Hotsiy</strong>
+              </span>
             </span>
           </a>
           <div className="navbar-burger align-right">
@@ -44,7 +45,7 @@ class Navbar extends Component {
               </li>
             ))}
           </ul>
-        </div>      
+        </div>
       </nav>
     );
   }

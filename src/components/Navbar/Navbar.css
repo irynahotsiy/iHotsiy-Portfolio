@@ -1,5 +1,5 @@
 
-.navbar{
+.navbar {
     background: #1d1e25;
     position: fixed;
     top:0;
@@ -9,12 +9,12 @@
     font-size: 1.1em;
     font-weight: 400;
 }
-.nav-container{
+.nav-container {
     width:100%;
     display: flex;
     align-items: center;
 }
-.navbar-brand{
+.navbar-brand {
     width:100%;
     padding: 0 40px;
     margin: 0;
@@ -22,17 +22,17 @@
     color:white;
     text-decoration: none;
 }
-.navbar-brand span{
+.navbar-brand span {
     display: flex;
     align-items: center;
     justify-content: center;
     padding: 0 5px;
 }
-.profile-image{
+.profile-image {
     height: 40px;
     border-radius: 1.5rem;
 }
-.navbar-nav{
+.navbar-nav {
     box-sizing: border-box;
     margin: 0;
     padding: 0 30px;
@@ -52,10 +52,10 @@
     cursor: pointer;
     color: white;
 }
-.nav-item:hover > a, .nav-item:focus a{
+.nav-item:hover > a, .nav-item:focus a {
     color: #1d1e25;
 }
-.nav-item:hover , .nav-item:focus{
+.nav-item:hover , .nav-item:focus {
     background: #aab2bf;
     transition: all 0.5s;
 }
@@ -96,15 +96,15 @@ button{
         cursor: pointer;
         color: #aab2bf;
     }
-    .navbar-burger{
+    .navbar-burger {
         display: flex;
         justify-content: flex-end;
     }
-    .nav-item{
+    .nav-item {
         width: 100%;
         padding: 10px 20px;
     }
-    .navbar-brand{
+    .navbar-brand {
         padding: 0;
     }
 }
