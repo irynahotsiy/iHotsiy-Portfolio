@@ -32,7 +32,7 @@ class Contacts extends Component {
             </div>
             <p>
               or send a message on e-mail:
-              <br /> <strong>iryna.hotsiy@gmail.com</strong>
+              <br /><strong><a href="mailto:iryna.hotsiy@gmail.com">iryna.hotsiy@gmail.com</a></strong>
             </p>
           </div>
         </section>
