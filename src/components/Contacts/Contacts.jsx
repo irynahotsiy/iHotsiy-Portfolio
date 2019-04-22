@@ -14,7 +14,7 @@ class Contacts extends Component {
               </span>
             </h1>
             <p>
-              I'm looking forward to your prompt reply.
+              I'm looking forward to your reply.
               <br />
               You can find me on:
             </p>
@@ -31,7 +31,7 @@ class Contacts extends Component {
               ))}
             </div>
             <p>
-              or send message on e-mail:
+              or send a message on e-mail:
               <br /> <strong>iryna.hotsiy@gmail.com</strong>
             </p>
           </div>
