@@ -5,10 +5,8 @@
     background: linear-gradient(to left, rgba(138,199,131,1), rgb(42, 171, 143));
     border: none;
     font-size: 1rem;
-}
-.gradiented-btn a {
- text-decoration: none;
- color:white;
+    text-decoration: none;
+    color:white;
 }
 .gradiented-btn:hover {
     background: linear-gradient(to right, rgba(138,199,131,1), rgb(42, 171, 143));
@@ -32,8 +30,7 @@
     border-radius: 5rem;
 }
 .project-background {
-    width: 100%;
-    max-width: 760px;
+    width: 760px;
     box-sizing: border-box;
     display: flex;
     flex-direction: column;
@@ -75,6 +72,8 @@
     }
     .project-background {
         text-align: center;
+        width: 100%;
+        max-width: 760px;
     }
     .technologies span {
         margin: 0 15px;
@@ -82,4 +81,5 @@
     .gradiented-btn {
         margin: 0 15px;
     }
+
 }
