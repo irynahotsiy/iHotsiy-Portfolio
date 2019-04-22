@@ -59,7 +59,7 @@ export const db = {
             "img": require("./Photos/freecodecamp.jpeg"),
             "period": "Feb 2018 - Present",
             "title": "freeCodeCamp",
-            "listTitle": "As a begginer I've started to learn code with FreeCodeCamp. This course helps me to acquaint with: ",
+            "listTitle": "As a begginer I started to learn code with FreeCodeCamp. This course helped me to acquaint with: ",
             "li": ["Responsive Web Design", "Javascript Algorithms And Data Structures", "Front End Libraries"]
         },
         {
@@ -67,7 +67,7 @@ export const db = {
             "img": require("./Photos/udemy.png"),
             "period": "January 2018",
             "title": "The web developer bootcamp",
-            "listTitle": "Using materials of this course I've learnt how to use HTML, CSS, JS, jQuery and Bootstrap libraries in real projects. The most usefull for me was creating color-game and to-do-list projets. Also I've learnt more about:",
+            "listTitle": "Using materials of this course I've learnt how to use HTML, CSS, JS, jQuery and Bootstrap libraries in real projects. The most usefull for me was creating color-game and to-do-list projects. Also I've learnt more about:",
             "li": ["Flexbox and grid system", "Objects and arrays", "Bootstrap"],
         },
         {
@@ -75,8 +75,8 @@ export const db = {
             "img": require("./Photos/WordPress.png"),
             "period": "January 2019",
             "title": "Create a Blog with WordPress",
-            "listTitle": "I'got this course to understand how Wordpress works and what it is in general. I've learnt about: ",
-            "li": ["Setting site (writing, reading, comments)", "Creating new blocks with differnt elements and styling it", "Using widgest and plugins"],
+            "listTitle": "I've got this course to understand how Wordpress works and what it is in general. I've learnt about: ",
+            "li": ["Setting up site (writing, reading, comments)", "Creating new blocks with differnt elements and styling it", "Using widgest and plugins"],
         }
     ],
     "projects": [{
@@ -93,7 +93,7 @@ export const db = {
             "img":  require("./Photos/todo.png"),
             "title": "To-do-list",
             "content": ["React JS", "HTML", "Styled Components"],
-            "description": "Simple Todo list was created using create-react-app. Instead of css was used Styled Components.",
+            "description": "Simple Todo list was created using create-react-app. Instead of plain css I used Styled Components.",
             "github": "https://github.com/irynahotsiy/to-do-list",
             "demo": "https://toddddo-list.netlify.com"
         },
@@ -112,7 +112,7 @@ export const db = {
             "img": require("./Photos/color-game.png"),
             "title": "Color-game-react",
             "content": ["React JS", "HTML", "Styled Components"],
-            "description": "The same simple Color-Guessing-Game rewriting using create-react-app and Styled Components.",
+            "description": "The same simple Color-Guessing-Game rewritten using create-react-app and Styled Components.",
             "github": "https://github.com/irynahotsiy/color-game-react",
             "demo": "https://color-game-react.netlify.com"
 
