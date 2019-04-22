@@ -36,7 +36,7 @@
 }
 .information p, ul {
     margin: 5px;
-    line-height: 2;
+    line-height: 1.5;
     color:#5d5c5c;
 }
 
@@ -58,7 +58,6 @@ hr {
         justify-content: center;
     }
     .information p, ul {
-        line-height: 1.5;
         font-size: 1rem;
         text-align: justify;
     }
