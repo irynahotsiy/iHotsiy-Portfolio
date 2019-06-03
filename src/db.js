@@ -125,6 +125,15 @@ export const db = {
             "description": "Simple Weather-App created using create-react-app and Styled Components.",
             "github": "https://github.com/irynahotsiy/Weather",
             "demo": "https://weather-coords.netlify.com"
+        },
+        {
+            "id": "5",
+            "img": require("./Photos/accounting-app.png"),
+            "title": "Accounting-App",
+            "content": ["React JS", "HTML", "Styled Components"],
+            "description": "Simple Accounting-App created using create-react-app and Styled Components.",
+            "github": "https://github.com/irynahotsiy/Accounting-App",
+            "demo": "https://accounting-app.netlify.com"
         }
     ],
     "social": [{
