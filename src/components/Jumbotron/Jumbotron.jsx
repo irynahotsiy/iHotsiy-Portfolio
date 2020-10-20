@@ -7,7 +7,7 @@ class Jumbotron extends Component {
       <section className="jumbotron" id="main">
         <header>
           <h1>
-            <span className="color-blue">Trainee</span>
+            <span className="color-blue">Trainee </span>
             <span>Front-End / Full-Stack </span>
             <span className="color-green">Developer</span>
           </h1>
