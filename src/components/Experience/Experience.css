@@ -1,0 +1,52 @@
+.experience {
+  display: flex;
+  padding: 40px;
+  margin: 10px 0;
+  align-items: center;
+  background-color: #ffffff;
+  justify-content: start;
+  border: 1px solid #ececec;
+  border-radius: 0.3em;
+  text-align: start;
+  color: #5d5c5c;
+}
+
+.image-box img{
+  border-radius: 5rem;
+  padding: 10px;
+  background-color: aliceblue;
+}
+
+.information-box{
+  margin-left: 40px;
+  font-size: 1rem;
+  line-height: 1.5;
+
+}
+.title {
+  font-weight: 500;
+  margin: 0;
+}
+.period{
+  font-weight: 200;
+  font-style: italic;
+}
+.position{
+  font-weight: 600;
+}
+.description {
+  padding: 15px 0;
+}
+.tools {
+  font-weight: 600;
+}
+
+
+@media only screen and (max-width: 1050px) {
+  .experience {
+    flex-direction: column;
+  }
+  .information-box {
+    margin: 0;
+  }
+}

@@ -4,7 +4,7 @@ import "./Portfolio.css";
 class Portfolio extends Component {
   render() {
     return (
-      <section className="blue-body" id="portfolio">
+      <section className="white-body" id="portfolio">
         <header>Portfolio</header>
         <blockquote>Here are a few of my projects</blockquote>
         <div className="container">
@@ -19,8 +19,8 @@ class Portfolio extends Component {
                   <article>{el.title}</article>
 
                   <div className="technologies">
-                    {el.content.map(el => (
-                      <span>{el}</span>
+                    {el.content.map(item => (
+                      <span key={el.content.indexOf(item)}>{item}</span>
                     ))}
                   </div>
                   <p>{el.description}</p>
@@ -32,15 +32,14 @@ class Portfolio extends Component {
                       >
                       <button className="gradiented-btn">GitHub</button>
                       </a>
-                      <a
+                      {el.demo != null ? <a
                         href={el.demo}
                         target="_blank"
                         rel="noopener noreferrer"
                       >
                        <button className="gradiented-btn">Demo</button>
-                        
-                      </a>
-                   
+                      </a> : <span></span>
+                      }
                   </div>
                 </div>
               </div>

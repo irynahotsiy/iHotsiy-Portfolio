@@ -13,11 +13,16 @@ export const db = {
         },
         {
             "id": "3",
+            "name": "Experience",
+            "href": "#experience"
+        },
+        {
+            "id": "4",
             "name": "Portfolio",
             "href": "#portfolio"
         },
         {
-            "id": "4",
+            "id": "5",
             "name": "Contact",
             "href": "#contact"
         }
@@ -39,20 +44,40 @@ export const db = {
             "id": "3"
         },
         {
+            "img":  require("./Photos/node.png"),
+            "title": "Node.js",
+            "id": "4"
+        },
+        {
             "img": require("./Photos/command_line.png"),
             "title": "Command Line",
-            "id": "4"
+            "id": "5"
         },
         {
             "img": require("./Photos/ES6.jpeg"),
             "title": "ES6",
-            "id": "5"
+            "id": "6"
         },
         {
             "img": require("./Photos/react.png"),
             "title": "React",
-            "id": "6"
-        }
+            "id": "7"
+        },
+        {
+            "img":  require("./Photos/git.webp"),
+            "title": "Git",
+            "id": "8"
+        },
+        {
+            "img":  require("./Photos/vs.png"),
+            "title": "Visual Studio",
+            "id": "9"
+        },
+        {
+            "img":  require("./Photos/aws.webp"),
+            "title": "AWS",
+            "id": "10"
+        },
     ],
     "courses": [{
             "id": "1",
@@ -70,24 +95,30 @@ export const db = {
             "listTitle": "Using materials of this course I've learnt how to use HTML, CSS, JS, jQuery and Bootstrap libraries in real projects. The most useful for me was creating color-game and to-do-list projects. Also I've learnt more about:",
             "li": ["Flexbox and grid system", "Objects and arrays", "Bootstrap"],
         },
-        {
+       {
             "id": "3",
             "img": require("./Photos/WordPress.png"),
             "period": "January 2019",
             "title": "Create a Blog with WordPress",
             "listTitle": "I've got this course to understand how Wordpress works and what it is in general. I've learnt about: ",
             "li": ["Setting up site (writing, reading, comments)", "Creating new blocks with differnt elements and styling it", "Using widgets and plugins"],
-        }
-    ],
-    "projects": [{
+        },
+        {
+            "id": "4",
+            "img": require("./Photos/cs50.png"),
+            "period": "February 2020",
+            "title": "This is CS50",
+            "listTitle": "During this course, I got familiar with C and Python programming languages, SQL database. I've learned more about algorithms and data structures",
+        },
+        {
             "id": "5",
-            "img": require("./Photos/accounting-app.png"),
-            "title": "Accounting-App",
-            "content": ["React JS", "HTML", "Styled Components"],
-            "description": "Simple Accounting-App created using create-react-app and Styled Components.",
-            "github": "https://github.com/irynahotsiy/Accounting-App",
-            "demo": "https://accounting-app.netlify.com"
-        }, 
+            "img": require("./Photos/telegraf.jpg"),
+            "period": "July 2020",
+            "title": "Build Telegram Bots with JavaScript: The Complete Guide",
+            "listTitle": "This course helped me in creating a telegram bot using the telegraf framework.",
+        },
+    ],
+    "projects": [
         {
             "id": "1",
             "img":  require("./Photos/invitation.png"),
@@ -101,39 +132,90 @@ export const db = {
             "id": "2",
             "img":  require("./Photos/todo.png"),
             "title": "To-do-list",
-            "content": ["React JS", "HTML", "Styled Components"],
+            "content": ["React JS", "Styled Components"],
             "description": "Simple Todo-List was created using create-react-app. Instead of plain css I used Styled Components.",
             "github": "https://github.com/irynahotsiy/to-do-list",
             "demo": "https://toddddo-list.netlify.com"
         },
-        {
-            "id": "3",
-            "img": require("./Photos/color.png"),
-            "title": "Color-game",
-            "content": ["JS", "HTML", "CSS"],
-            "description": 'Simple Color-Guessing-Game. It was assigned as a part of Udemy course "The Web Developer Bootcamp".',
-            "github": "https://github.com/irynahotsiy/color-Game",
-            "demo": "https://colorr-game.netlify.com"
-
-        },
+        
         {
             "id": "4",
             "img": require("./Photos/color-game.png"),
             "title": "Color-game-react",
-            "content": ["React JS", "HTML", "Styled Components"],
-            "description": "The same simple Color-Guessing-Game rewritten using create-react-app and Styled Components.",
+            "content": ["React JS", "Styled Components"],
+            "description": "Simple Color-Guessing-Game rewritten using create-react-app and Styled Components.",
             "github": "https://github.com/irynahotsiy/color-game-react",
             "demo": "https://color-game-react.netlify.com"
-
         },
         {
             "id": "5",
-            "img": require("./Photos/weather.png"),
-            "title": "Weather-App",
-            "content": ["React JS", "HTML", "Styled Components"],
-            "description": "Simple Weather-App created using create-react-app and Styled Components.",
-            "github": "https://github.com/irynahotsiy/Weather",
-            "demo": "https://weather-coords.netlify.com"
+            "img": require("./Photos/accounting-app.png"),
+            "title": "Accounting-App",
+            "content": ["React JS", "Styled Components"],
+            "description": "Simple Accounting-App created using create-react-app and Styled Components.",
+            "github": "https://github.com/irynahotsiy/Accounting-App",
+            "demo": "https://accounting-app.netlify.com"
+        },
+        {
+            "id": "6",
+            "img": require("./Photos/calc.png"),
+            "title": "Calculator-App",
+            "content": ["React Native", "Expo"],
+            "description": "Simple Calculator App in react-native inspired by the android calculator.",
+            "github": "https://github.com/irynahotsiy/Calculator-App",
+        },
+        {
+            "id": "7",
+            "img": require("./Photos/2048.png"),
+            "title": "2048",
+            "content": ["React Native", "Expo"],
+            "description": "Simple 2048 Game in react-native.",
+            "github": "https://github.com/irynahotsiy/2048",
+        },
+        {
+            "id": "8",
+            "img": require("./Photos/friends.png"),
+            "title": "Basic Friends list",
+            "content": ["React", "Bootstrap", "Node.js", "Express", "MySQL"],
+            "description": "Test assignment task",
+            "github": "https://github.com/irynahotsiy/basic-friends-list",
+        },
+        {
+            "id": "9",
+            "img": require("./Photos/school.png"),
+            "title": "Simple School Api",
+            "content": ["Node.js", "Express", "MySQL"],
+            "description": "Test assignment task",
+            "github": "https://github.com/irynahotsiy/simple-school-api",
+        },
+    ],
+    "experience": [
+        {
+            "id": 1,
+            "img": require("./Photos/andcards.png"),
+            "company": "Andcards",
+            "period": "September 2019 - December 2019",
+            "position": "Intern software engineer",
+            "description": "It was my first experience as a software engineer, I started my internship from writing unit tests using Chai library. Also, I was working a lot on refactoring and fixing small UI bugs.",
+            "technologies": ["Chai", "JavaScript", "React JS", "Git", "GitHub", "Trello"]
+        },
+        {
+            "id": 2,
+            "img": require("./Photos/chatbots.studio.png"),
+            "company": "Chatbots.Studio",
+            "period": "July 2020 - August 2020",
+            "position": " Internship",
+            "description": "I was working on a telegram bot as a social project for women who just had a baby (https://t.me/momsAssistantDevBot).",
+            "technologies": ["JavaScript", "Telegraf", "AWS", "CodeCommit", "Git", "Dialogflow", "MongoDB"]
+        },
+        {
+            "id": 3,
+            "img": require("./Photos/chatbots.studio.png"),
+            "company": "Chatbots.Studio",
+            "period": "September 2020 - October 2020",
+            "position": " Junior Full-Stack developer",
+            "description": "During this period I worked on 3 different projects mostly on the backend part. I got familiar with NestJS.",
+            "technologies": ["JavaScript", "AWS","CodeCommit", "Git", "GitHub", "Jira", "SQL", "NestJS", "Telegraf"]
         }
     ],
     "social": [{

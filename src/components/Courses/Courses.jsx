@@ -7,7 +7,7 @@ class Courses extends Component {
       <section className="white-body" id="courses">
         <header>Courses</header>
         <blockquote>
-          Some of the courses help me to develop my front-end skills.
+          Some of the courses helped me to develop my skills.
         </blockquote>
         {this.props.courses.map(el => (
           <div key={el.id} className="container">
@@ -20,9 +20,9 @@ class Courses extends Component {
                 <h3>{el.title}</h3>
                 <p>{el.listTitle}</p>
                 <ul>
-                  {el.li.map(li => (
+                  {el.li != null ? el.li.map(li => (
                     <li key={li}>{li}</li>
-                  ))}
+                  )) : <div></div>}
                 </ul>
               </div>
             </div>

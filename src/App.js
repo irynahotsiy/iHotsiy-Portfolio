@@ -3,6 +3,7 @@ import Navbar from './components/Navbar/Navbar';
 import Jumbotron from './components/Jumbotron/Jumbotron';
 import Skills from './components/Skills/Skills';
 import Courses from './components/Courses/Courses';
+import Experience from './components/Experience/Experience';
 import Portfolio from './components/Portfolio/Portfolio';
 import Contacts from './components/Contacts/Contacts';
 import Footer from './components/Footer/Footer';
@@ -15,10 +16,11 @@ class App extends Component {
   render() {
     return (
       <>
-        <Navbar pages = {db.list}/>
+        <Navbar pages={db.list}/>
         <Jumbotron />
-        <Skills skills = {db.box}/>
-        <Courses courses = {db.courses}/>
+        <Skills skills={db.box}/>
+        <Courses courses={db.courses}/>
+        <Experience experience={db.experience}/>
         <Portfolio projects={db.projects}/>
         <Contacts social={db.social}/>
         <Footer />
